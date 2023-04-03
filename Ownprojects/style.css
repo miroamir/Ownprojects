@@ -1,0 +1,42 @@
+
+.header{
+  color:rgb(1, 79, 1);
+  background-position: 100px 100px;
+  position: relative;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 70px;
+
+}
+
+.navbar {
+  background-color: rgb(125, 200, 140);
+  color: #fff;
+  display: flex;
+  justify-content: center auto;
+  padding: 0px auto ;
+  font-size: 40px;
+  width: 1300px;
+  border-radius: 20px 20px 20px 20px;
+  text-align: right;
+  box-shadow: 0 0 3px black;
+  margin: 0 auto;
+}
+
+.navbar ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 50px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+}
