@@ -1,42 +1,114 @@
 
-.header{
-  color:rgb(1, 79, 1);
+label.logo {
+  color:rgb(235, 213, 12);
   background-position: 100px 100px;
   position: relative;
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-weight: bold;
-  font-size: 70px;
+  font-size: 90px;
+
+  margin: 0px;
+  bottom: 15px;
 
 }
 
-.navbar {
-  background-color: rgb(125, 200, 140);
-  color: #fff;
+ nav {
+  background-color: white;
+  color: black;
   display: flex;
-  justify-content: center auto;
-  padding: 0px auto ;
-  font-size: 40px;
-  width: 1300px;
-  border-radius: 20px 20px 20px 20px;
+  justify-content: flex-end;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 15px 15px 15px 15px;
   text-align: right;
-  box-shadow: 0 0 3px black;
+  box-shadow: 0 0 2px black;
   margin: 0 auto;
+  height: 80px;
+  margin-top: 20px;
+
+
 }
 
-.navbar ul {
+nav ul {
+ float: right;
+ margin-right: 20px;
+}
+
+nav ul li {
   display: inline-block;
-  margin: 0;
-  padding: 0;
+  line-height: 50px;
+  margin: 0 20px;
 }
 
-.navbar li {
-  display: inline-block;
-  margin: 0 50px;
-}
-
-.navbar a {
-  color: #fff;
+nav ul li a{
+  color: black;
   text-decoration: none;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+nav.active,nav:hover{
+  background: rgb(218, 236, 218);
+  transition: 0.2s;
+  box-shadow: 0 0 2px black;
+
+}
+
+a.active,a:hover{
+  background: rgb(247, 242, 242);
+  transition: 0.2s;
+  box-shadow: 0 0 2px black;
+
+}
+
+.checkbtn{
   font-size: 30px;
+  color:white;
+  float:right;
+  line-height: 80px;
+
+}
+
+.chisiamo {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.par {
+  color: rgb(29, 26, 26);
+  font-size: 20px;
+}
+
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Alkatra', cursive;
+}
+.contact-info h1 {
+  margin: 0;
+  padding: 0 20px;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  font-size: 25px;
+}
+.contact-info .address {
+  margin-left: auto;
+  font-size: 25px;
+  text-align: right;
+  width: 10px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  transform: rotate(270deg);
+  transform-origin: center center;
 }
