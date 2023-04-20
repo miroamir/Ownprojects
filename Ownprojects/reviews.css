@@ -1,9 +1,9 @@
 
 #testimonials {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   width: 100%;
 }
 
@@ -18,15 +18,16 @@
 }
 
 .testimonial-heading h1 {
- font-size: 2.2rem;
- font-weight: 500;
- background-color: black;
- color:aliceblue;
- padding: 10px 20px;
+  font-size: 2.2rem;
+  font-weight: 500;
+  background-color: black;
+  color:aliceblue;
+  padding: 10px 20px;
 }
 .testimonial-heading span {
   font-size: 1.3rem;
   color: black;
+  margin-bottom: 10px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -46,6 +47,8 @@
   padding: 20px;
   margin: 15px;
   cursor: pointer;
+  box-shadow: 0 0 8px black;
+  border-radius: 10px 10px 10px 10px;
 }
 
 
@@ -53,9 +56,8 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  overflow:hidden;
+  overflow: hidden;
   margin-right: 10px;
-
 }
 
 .profile-img img{
@@ -88,7 +90,6 @@
 
 .reviews {
   color: yellow;
-
 }
 
 .box-top{
@@ -101,5 +102,11 @@
 .client-comment p {
   font-size: 0.9rem;
   color: #4b4b4b;
+
+}
+
+.testimonial-box:hover{
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
 
 }
