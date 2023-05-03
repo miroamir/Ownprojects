@@ -1,0 +1,13 @@
+
+
+label.logo {
+  display: flex;
+  align-items: center;
+  color: rgb(211, 191, 3);
+  position: center;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 60px;
+  background-color: rgb(237, 218, 228);
+  width: 100%;
+}

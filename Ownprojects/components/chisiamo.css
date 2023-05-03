@@ -1,0 +1,19 @@
+.chisiamo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;;
+  padding-top: 30px;
+  background: rgb(246, 246, 251);
+  opacity: 0.7;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0 0 4px black;
+  margin-top: 40px;
+  width: 70%;
+  padding-bottom: 20px;
+  margin-bottom: 90px;
+  margin-left: 200px;
+  margin-top: 150px;
+  font-size: 20px;
+}
