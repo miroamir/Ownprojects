@@ -5,17 +5,7 @@
 @import "logo.css";
 @import "navbar.css";
 
-.contact-info {
-  background-color: white;
-  text-align: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 10px;
-  box-shadow: 0 0 3px black;
-  margin-left: 10px;
-  width: 35%
-}
+
 
 h3 {
   position: absolute;
@@ -23,6 +13,10 @@ h3 {
   right: 13px;
   color: black;
   line-height: 25px;
+}
+
+span {
+  content: "2709";
 }
 
 
@@ -100,4 +94,36 @@ p {
   position: absolute;
   left: 150px;
   width: 5px;
+}
+
+
+.gmail {
+  color:white;
+  font-size: 23px;
+  position: absolute;
+  left: 100px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+.indirizzo {
+  font-family: Georgia;
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  right: 10px;
+}
+
+.contatto {
+  font-family: Georgia;
+  position: absolute ;
+  top: -10px;
+  right: 10px;
+  width: 100%;
+
+}
+
+.image {
+  width: 30px;
+  height: 20px;
 }
