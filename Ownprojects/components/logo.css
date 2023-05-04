@@ -3,6 +3,7 @@
 label.logo {
   display: flex;
   align-items: center;
+  z-index: 9999;
   color: rgb(211, 191, 3);
   position: center;
   font-family: 'Dancing Script', cursive;
@@ -10,4 +11,10 @@ label.logo {
   font-size: 60px;
   background-color: rgb(237, 218, 228);
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px
+
 }
