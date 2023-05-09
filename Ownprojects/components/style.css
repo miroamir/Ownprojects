@@ -4,6 +4,7 @@
 @import "reviews.css";
 @import "logo.css";
 @import "navbar.css";
+@import "banner.css";
 
 h3 {
   position: absolute;
@@ -27,16 +28,17 @@ span {
   margin: 0px 0px;
   font-size: 26px;
   text-align: center;
-  box-shadow: 0 0 5px rgb(15, 15, 15);
+  box-shadow: 0 0 3px rgb(15, 15, 15);
   font-weight: bold;
   width: 100%;
   letter-spacing: 4px;
   margin-bottom: 5px;
+  border: 5px rgb(96, 49, 96) solid;
 }
 
 
 #occasioni:hover {
- background-color: rgb(165, 43, 118);
+ background-color: rgb(211, 103, 170);
  transition: all 0.7s ease;
 }
 
@@ -47,23 +49,26 @@ h1 {
 
 
 body {
+  width: 100%;
   margin: 0;
   padding: 0;
-  background-image: 'images/background.jpg';
+  background-image: url('images/background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 90% 85%;
   background-position: center bottom 1000px;
   background-color: white;
+  overflow-x: hidden;
 }
 
 
 #feste {
+  border: 6px solid rgb(96, 49, 96);
   display: flex;
   flex-direction: column;
-  color:rgb(211, 203, 229);
-  background-color: rgb(17, 7, 157);
+  color:white;
+  background-color: rgb(183, 104, 183);
   opacity: 0.7;
   margin: 0 0px;
   font-size: 26px;

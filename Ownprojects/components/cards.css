@@ -2,7 +2,10 @@
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 10px;
+  background-size: 20%;
+  height: 500px;
+  background-size: 100px;
 }
 
 .container h2 {
@@ -10,9 +13,11 @@
 }
 
 .card {
+  position: relative;
+  top: 100px;
   width: 250px;
   height: 350px;
-  background: #afa1f3;
+  background: #61cd90;
   margin: 10px;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 0 0 4px black;
