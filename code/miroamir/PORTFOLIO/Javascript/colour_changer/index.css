@@ -11,6 +11,10 @@
   transition: all 0.2s linear;
 }
 
+body {
+  background-color: var(--main-colour);
+}
+
 .container {
   min-height: 100vh;
   display: flex;
@@ -48,37 +52,45 @@ h3 {
   font-weight: 1500;
   background-clip: text;
   color: transparent;
-  margin-top: 100px;
+  margin-top: 10px;
   padding-left: 1px;
   font-size: 30px;
 }
 
 .color-switcher{
   position:fixed;
-  top: 25px; right:0;
-  width: 200px;
+  border: 2px solid white;
+  top: 5px; right: -323px;
+  width: 300px;
+  height: 150px;
   padding: 10px;
-  background: #fff;
+  background: black;
   z-index: 1000;
 }
 
+.color-switcher.active {
+  right: 0px;
+}
+
 .color-switcher h3 {
-  color: var(--main-colour);
-  font-size: 20px;
+  color: white;
+  font-size: 25px;
   margin-bottom: 10px;
-  border-bottom:1px black solid;
+  border-bottom:1px rgb(7, 7, 6) solid;
   padding: 5px 0;
   text-align: center;
 }
 
 .color-switcher .switcher-btn {
   position: absolute;
-  top:0; left:-75px;
-  color: var(--main-color);
-  background: #fff;
+  top:-2px; left:-78px;
+  border: 2px solid white;
+  color:white;
+  background: #010101;
   padding: 10px 20px;
   cursor: pointer;
   font-size: 35px;
+
 }
 
 .color-switcher .switcher-btn i{
@@ -91,8 +103,18 @@ h3 {
   }
 }
 
-.color-switcher .theme-buttons-contnainer {
+.color-switcher .theme-buttons-container {
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+
+.color-switcher .theme-buttons-container .theme-buttons {
+display: block;
+height:50px;
+width:50px;
+border-radius: 50%;
+margin: 5px;
+cursor: pointer;
 }
