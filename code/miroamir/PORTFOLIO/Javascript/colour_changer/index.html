@@ -16,16 +16,22 @@
         <i class="fas fa-cog"></i>
       </div>
 
-      <h3>select color</h3>
+      <h3>Pick a colour!</h3>
 
       <div class="theme-buttons-container">
         <span class="theme-buttons" data-color="rgb(154, 56, 56)" style="background:rgb(154, 56, 56)"></span>
         <span class="theme-buttons" data-color="rgb(97, 202, 88)" style="background:rgb(97, 202, 88)"></span>
         <span class="theme-buttons" data-color="rgb(63, 72, 153)" style="background:rgb(63, 72, 153)"></span>
-        <span class="theme-buttons" data-color="rgb(154, 173, 43)" style="background:rgb(154, 173, 43)"></span>
+        <span class="theme-buttons" data-color="rgb(137, 142, 111)" style="background:rgb(137, 142, 111)"></span>
+        <span class="theme-buttons" data-color="rgb(209, 106, 137)" style="background:rgb(209, 106, 137)"></span>
+        <span class="theme-buttons" data-color="rgb(98, 200, 228)" style="background:rgb(98, 200, 228)"></span>
+        <span class="theme-buttons" data-color="rgb(253, 238, 72)" style="background:rgb(253, 238, 72)"></span>
+        <span class="theme-buttons" data-color="rgb(216, 56, 16)" style="background:rgb(216, 56, 16)"></span>
+        <span class="theme-buttons" data-color="rgb(27, 123, 93)" style="background:rgb(27, 123, 93)"></span>
+        <span class="theme-buttons" data-color="rgb(160, 241, 158)" style="background:rgb(160, 241, 158)"></span>
       </div>
     </div>
-    <button>change background</button>
+    <button class="original-btn">Back to Original</button>
 
     <h3>A simple but cool Project !</h3>
 
@@ -46,6 +52,12 @@
         });
 
     });
+
+    let backToOriginal = document.querySelector('.original-btn');
+
+    backToOriginal.onclick = () => {
+      document.querySelector(':root').style.removeProperty('--main-colour');
+    };
   </script>
 </body>
 </html>
