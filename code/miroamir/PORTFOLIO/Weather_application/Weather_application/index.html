@@ -11,9 +11,54 @@
 <div class="card">
   <div class="search">
     <input type="text" placeholder="Enter city name" spellcheck="false">
-    <button>🔎</button>
+    <button><img src="images/search.jfif.png" alt=""></button>
+  </div>
+  <div class="weather">
+    <img src="images/rain.jfif.png" class="weather-img">
+    <h1 class="temp">14°C</h1>
+    <h2 class="city">London</h2>
+    <div class="details">
+      <div class="col">
+        <img src="images/humidity.jfif.png">
+        <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+        </div>
+      </div>
+      <div class="col">
+        <img src="images/wind.jfif.png">
+        <div>
+            <p class="wind">15 km/h</p>
+            <p>Wind Speed</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
+<script>
+
+  const apiKey = "1e6f74514c7d01e812d09f9df2a805d2";
+  const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=london";
+
+  async function checkWeather () {
+    const response = await fetch(apiUrl + `&appid=${apiKey}`);
+    var data = await response.json();
+    console.log(data);
+
+    document.querySelector(".city").innerHTML = data.name;
+    document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
+    document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
+    document.querySelector(".wind").innerHTML = data.wind.speed + "Km/hr";
+
+  }
+
+  checkWeather ()
+
+
+
+
+</script>
 
 </body>
 </html>
