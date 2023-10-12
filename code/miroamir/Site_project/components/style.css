@@ -1,0 +1,170 @@
+
+@import "cards.css";
+@import "chisiamo.css";
+@import "reviews.css";
+@import "logo.css";
+@import "navbar.css";
+@import "banner.css";
+
+h3 {
+  position: absolute;
+  top: 10px;
+  right: 13px;
+  color: black;
+  line-height: 25px;
+}
+
+span {
+  content: "2709";
+}
+
+
+#occasioni {
+  color:white;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.9;
+  background-color:rgb(183, 104, 183);
+  margin: 0px 0px;
+  font-size: 26px;
+  text-align: center;
+  box-shadow: 0 0 3px rgb(15, 15, 15);
+  font-weight: bold;
+  width: 100%;
+  letter-spacing: 4px;
+  margin-bottom: 5px;
+  border: 5px rgb(96, 49, 96) solid;
+}
+
+
+#occasioni:hover {
+ background-color: rgb(211, 103, 170);
+ transition: all 0.7s ease;
+}
+
+
+h1 {
+  display: inline-block;
+}
+
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 90% 85%;
+  background-position: center bottom 1000px;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+
+#feste {
+  border: 6px solid rgb(96, 49, 96);
+  display: flex;
+  flex-direction: column;
+  color:white;
+  background-color: rgb(183, 104, 183);
+  opacity: 0.7;
+  margin: 0 0px;
+  font-size: 26px;
+  text-align: center;
+  box-shadow: 0 0 4px black;
+  font-weight: bold;
+  margin-top: 200px;
+  width: 100%;
+  letter-spacing: 3px;
+}
+
+p {
+  color: rgb(29, 26, 26);
+  font-size: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #000000;
+  color: white;
+  position: absolute;
+  left: 200px;
+  width: 5px;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+  position: absolute;
+  left: 150px;
+  width: 5px;
+}
+
+
+.gmail {
+  color:white;
+  font-size: 23px;
+  position: absolute;
+  left: 100px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+.indirizzo {
+  font-family: Georgia;
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  right: 10px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.indirizzo:hover {
+  background-color: white;
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+.contatto {
+  color:black;
+  background-color: black;
+  font-family: Georgia;
+  position: absolute ;
+  top: -10px;
+  right: 10px;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+.contatto:hover {
+transform: scale(1.02);
+cursor:pointer;
+transition: all 0.7s ease;
+color:black;
+background-color: white;
+}
+
+
+.piante {
+  width: 300px;
+  height:300px;
+  align-items: center;
+  margin: 50px 600px;
+}

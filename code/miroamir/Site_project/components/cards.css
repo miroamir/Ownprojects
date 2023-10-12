@@ -1,0 +1,91 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-size: 20%;
+  height: 500px;
+  background-size: 100px;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  top: 100px;
+  width: 250px;
+  height: 350px;
+  background: #61cd90;
+  margin: 10px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0 0 4px black;
+}
+
+.card-image {
+  height: 10px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+
+.card-1 {
+  background-image: url('/images/compleanno.jpg');
+  background-size: cover;
+  border-radius: 10px 10px 10px 10px;
+  height: 200px;
+}
+
+.card-2 {
+  background-image: url('/images/regalo.jpg');
+  background-size: cover;
+  border-radius: 10px 10px 10px 10px;
+  height: 200px;
+}
+
+.card-3 {
+  background-image: url('/images/occasioni.jpg');
+  background-size: cover;
+  border-radius: 10px 10px 10px 10px;
+  height: 200px;
+}
+
+.card-4 {
+  background-image: url('/images/regali.jpg');
+  background-size: cover;
+  border-radius: 10px 10px 10px 10px;
+  height: 200px;
+}
+
+.card-5 {
+  background-image: url('/images/regali.jpg');
+  background-size: cover;
+  border-radius: 10px 10px 10px 10px;
+  height: 200px;
+}
+
+.card a {
+  color: white;
+  background-color: black;
+  padding: 10px 15px;
+  display: block;
+  text-align: center;
+  margin: 20px 60px;
+  border-radius: 10px 10px 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  color: black;
+  background-color: white;
+}
+
+.card:hover {
+  color:rgb(19, 18, 18);
+  background-color: rgb(230, 227, 241);
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: all 1s ease;
+}
