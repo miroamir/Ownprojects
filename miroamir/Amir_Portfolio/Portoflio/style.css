@@ -285,6 +285,7 @@ section {
 
 }
 
+
 .about-details-container {
   justify-content: center;
   flex-direction: column;
@@ -312,17 +313,22 @@ section {
   display: flex;
   flex-direction: column;
   flex: 1;
-  justify-content:start;
+  justify-content: start;
   text-align: center;
   align-items: center;
+  color: black;
   background: white;
   border-radius: 4rem;
   padding: 3rem;
   border: rgb(163, 163, 163) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-
-
 }
+
+.details-container li {
+color:black;
+}
+
+
+
 
 .section-container {
 gap: 4rem;
@@ -472,4 +478,23 @@ footer nav {
 footer p {
   text-align: center;
   margin-top: 1rem;
+}
+
+
+/* Add this to your existing CSS file */
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+section.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
