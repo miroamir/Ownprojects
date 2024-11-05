@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  color: rgb(35, 33, 33);
+  background-color: #f8CC18;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-content, .hero-content, nav, #slogan {
+  width: 100%;
+  max-width: 1200px; /* Adjust this value as needed */
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-content {
+  font-size: 30px;
+}
+
+.logo {
+  max-height: 50px;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  font-size: 25px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 10px;
+  padding: 5px 0;
+}
+
+nav ul li a {
+  color: rgb(43, 40, 40);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#slogan {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal; /* Changed from 'weight' to 'normal' */
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  max-width: 1200px; /* Adjust this value as needed */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  background-color: #f8CC18;
+  color: rgb(35, 33, 33);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Adjust this value as needed */
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
